@@ -54,6 +54,8 @@ Stavona R V2已支持WebHID控制中心
 
 假设您已经下载好游戏并完成了键盘操作的基本启动设置，请于Release下载最新的StavonaIO.dll，并在控制中心中将手台的操作模式调节至HID模式
 
+**StavonaIO文件可从本文档的Github Release中下载，请勿使用来源不明的DLL注入游戏!!!**
+
 以下是segatools.ini设置
 
 ```ini
