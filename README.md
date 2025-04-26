@@ -1,5 +1,5 @@
 # Stavona R V2 使用指南/Guide
-[V1更换IO板戳我](/更换IO板/Stavona R V1 更换IO板详细指南.md)
+[V1更换IO板戳我](更换IO板/Stavona R V1 更换IO板详细指南.md)
 ### 特点/Features
 
 - 独特外壳设计，外形更加炫酷
