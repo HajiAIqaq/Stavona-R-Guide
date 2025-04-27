@@ -81,3 +81,5 @@ reportTime=20
 选择終了，返回游戏开始页面，Enjoy your controller！
 
 CHUNITHM及其商标**®**版权应于SEGA所有，对其软件的使用，修改等行为具有法律风险，软件仅供学习交流使用
+
+**Docs made by NJM Center**
