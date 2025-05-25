@@ -44,7 +44,7 @@ Stavona R V2已支持WebHID控制中心
 
 **键盘模式**支持设置键盘映射以支持多种节奏游戏
 
-**HID模式**与segatools的stavona IO对接，实现更好的游玩体验
+**HID模式**与segatools的Seikan IO对接，实现更好的游玩体验
 
 ## 手台固件更新/Update
 
