@@ -1,7 +1,7 @@
 # Stavona R V2 使用指南/Guide
 [V1更换IO板戳我](https://github.com/HajiAIqaq/Stavona-R-Guide/blob/main/%E6%9B%B4%E6%8D%A2IO%E6%9D%BF/Stavona%20R%20V1%20%E6%9B%B4%E6%8D%A2IO%E6%9D%BF%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97.md)
 
-[上手Q&A戳我](https://github.com/HajiAIqaq/Stavona-R-Guide/blob/main/Stavona%20Q%26A/Q%26A.md)
+[上手Q&A戳我](https://github.com/HajiAIqaq/Stavona-R-Guide/blob/main/Stavona%20Q%26A/Q%26A.md)（施工中）
 ### 特点/Features
 
 - 独特外壳设计，外形更加炫酷
@@ -46,39 +46,31 @@ Stavona R V2已支持WebHID控制中心
 
 **HID模式**与segatools的stavona IO对接，实现更好的游玩体验
 
+## 手台固件更新/Update
+
+下载Release里的flasher.zip文件并解压，搜索Stavona R，下载最新版本的固件并按照flasher里面的提示进行操作
+
+注意：在刷入固件的过程中断电或者刷入错误的固件可能导致物理电路损坏，请窒息！！
+
 ## 游戏软件设置/Game settings
 
 关于游戏的下载与启动教程
 
 [Performai Manual](https://performai.evilleaker.com/manual/)
 
-假设您已经下载好游戏并完成了键盘操作的基本启动设置，请于Release下载最新的StavonaIO.dll，并在控制中心中将手台的操作模式调节至HID模式
+假设您已经下载好游戏并完成了键盘操作的基本启动设置，请于Release下载最新的SeikanIO.dll，并在控制中心中将手台的操作模式调节至HID模式
 
-**StavonaIO文件可从本文档的Github Release中下载，请勿使用来源不明的DLL注入游戏!!!**
+**SeikanIO文件可从本文档的Github Release中下载，请勿使用来源不明的DLL注入游戏!!!**
 
 以下是segatools.ini设置
 
 ```ini
 [chuniio]
 ; If you wish to sideload a different chuniio, specify the DLL path here
-path=StavonaIO.dll
-[StavonaIO]
-reportTime=20
+path=SeikanIO.dll
 ```
 
-> [!NOTE]
->
-> 适用于"V1触摸算法"的额外设置
-
-打开游戏，按手台功能区的第一个按钮进入Test模式，通过功能区按钮或触摸板，在游戏的测试选项中选择メインデバイス設定
-
-![游戏测试01](游戏测试01.png)
-
-将「しきい値」设置为 40（此为触摸灵敏度阈值）
-
-![游戏测试02](游戏测试02.png)
-
-选择終了，返回游戏开始页面，Enjoy your controller！
+Enjoy your controller！
 
 CHUNITHM及其商标**®**版权应于SEGA所有，对其软件的使用，修改等行为具有法律风险，软件仅供学习交流使用
 
