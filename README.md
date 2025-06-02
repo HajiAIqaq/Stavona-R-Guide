@@ -36,7 +36,7 @@
 
 Stavona R V2已支持WebHID控制中心
 
-[Stavona R 控制中心](https://terminal.kairotech.net/stavona-r)
+[Stavona R 控制中心](https://manager.seikan.cn/)
 
 请通过网页控制中心选择所需的运行模式
 
